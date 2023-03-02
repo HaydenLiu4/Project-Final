@@ -1,4 +1,4 @@
-inventory = []
+inventory = [] #Everything looks great! Just wondering the purpose of this... did you load something in?
 def start_game():
     print("")
     print("You're in a KFC, you're really thirsty. The cashier asks what you want.")
