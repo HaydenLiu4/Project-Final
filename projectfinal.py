@@ -1,3 +1,5 @@
+#The code was easy to read, 
+#and various results, and the content is interesting.
 inventory = []
 def start_game():
     print("")
@@ -5,6 +7,8 @@ def start_game():
     print("\"What's up bossman, what can I get for you?\"")
     print("")
     choice = input("Will you order water, (1) Mt. Dew, (2) or nothing? (3): ")
+    #I think Water (1), Mt. Dew (2), or nothing? (3) seems more recognizable.
+    #When I first saw it, I was confused because there was a number after Comma.
     print("")
     if choice == "1":
         water()
@@ -117,3 +121,4 @@ def outside():
         print("")
         print("YOU HAVE ACHIEVED THE WORST ENDING!")
 start_game()
+#Overall, this code is well-organized and easy to follow, with clear functions and comments.
