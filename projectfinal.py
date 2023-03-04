@@ -4,7 +4,7 @@ def start_game():
     print("You're in a KFC, you're really thirsty. The cashier asks what you want.")
     print("\"What's up bossman, what can I get for you?\"")
     print("")
-    choice = input("Will you order water, (1) Mt. Dew, (2) or nothing? (3): ")
+    choice = input("Will you order (1) water, (2) Mt. Dew, or (3) nothing?: ")
     print("")
     if choice == "1":
         water()
@@ -24,7 +24,7 @@ def water():
     inventory.append("water")
     print("What will you say?")
     print("")
-    choice = input("Yes, that's all (1) or no, I need more (2): ")
+    choice = input("(1) Yes, that's all or (2) no, I need more.: ")
     print("")
     if choice == "1":
         choice1()
@@ -57,7 +57,7 @@ def choice2():
     print("The cashier raises an eyebrow and looks at you.")
     print("\"Well what else do you want?\"")
     print("")
-    choice = input("Give me chicken (1) or give me mac and cheese. (2): ")
+    choice = input("(1) Give me chicken or (2) give me mac and cheese.: ")
     print("")
     if choice == "1":
         chicken()
