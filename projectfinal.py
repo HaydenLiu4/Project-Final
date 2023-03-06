@@ -90,6 +90,17 @@ def outside():
         print("You say goodbye to the old man and leave.")
         print("")
         print("CONGRATULATIONS! YOU ACHIEVED THE TRUE ENDING!")
+        print("")
+        choice = input("Do you want to play again? (1) yes or (2) no?: ")
+        print("")
+        if choice == "1":
+            start_game()
+        elif choice == "2":
+            print("Have a good rest of your day then I guess.")
+        else:
+            print("*FOR THE LAST TIME, THAT'S NOT AN OPTION. LET'S TRY THIS AGAIN.*")
+            print("")
+            outside()
     elif "water" in inventory and "chicken" in inventory:
         print("The old man comes up to you and eyes you up.")
         print("\"Chicken and water? I'm dissapointed about the water but I suppose I can let you slide by as you have chicken.\"")
@@ -97,18 +108,51 @@ def outside():
         print("You leave the man.")
         print("")
         print("YOU ACHIEVED THE NEUTRAL ENDING!")
+        print("")
+        choice = input("Do you want to play again? (1) yes or (2) no?: ")
+        print("")
+        if choice == "1":
+            start_game()
+        elif choice == "2":
+            print("Have a good rest of your day then I guess.")
+        else:
+            print("*FOR THE LAST TIME, THAT'S NOT AN OPTION. LET'S TRY THIS AGAIN.*")
+            print("")
+            outside()
     elif "water" in inventory and "mac" in inventory:
         print("The old man comes up to you and eyes you up. He begins to speak to you.")
         print("\"Ok, ok, ok... I don't know about the water but that Colonel mac is the GOAT! You have passed my made up test. You may leave now.\"")
         print("You leave the old man.")
         print("")
         print("YOU HAVE ACHIEVED THE OK ENDING!")
+        print("")
+        choice = input("Do you want to play again? (1) yes or (2) no?: ")
+        print("")
+        if choice == "1":
+            start_game()
+        elif choice == "2":
+            print("Have a good rest of your day then I guess.")
+        else:
+            print("*FOR THE LAST TIME, THAT'S NOT AN OPTION. LET'S TRY THIS AGAIN.*")
+            print("")
+            outside()
     elif "water" in inventory:
         print("The old man looks at your drink and looks dissapointed.")
         print("\"Wow... Water? Really? Not exciting at all. Shame on you random stranger who wanted a drink.\"")
         print("The old man then shoots laser beams from his eyes and you turn to ashes.")
         print("")
         print("YOU ACHIEVED THE BAD ENDING!")
+        print("")
+        choice = input("Do you want to play again? (1) yes or (2) no?: ")
+        print("")
+        if choice == "1":
+            start_game()
+        elif choice == "2":
+            print("Have a good rest of your day then I guess.")
+        else:
+            print("*FOR THE LAST TIME, THAT'S NOT AN OPTION. LET'S TRY THIS AGAIN.*")
+            print("")
+            outside()
     else:
         print("The old man comes up to you and notices nothing in your hands. He looks at you.")
         print("\"Nothing? You enter a KFC and leave with nothing? I know you didn't eat in so this is frankly unacceptable. You failed my made up test stranger.\"")
@@ -116,4 +160,15 @@ def outside():
         print("You look up and see a boulder falling from the sky, before you can run away, you are crsuhed.")
         print("")
         print("YOU HAVE ACHIEVED THE WORST ENDING!")
+        print("")
+        choice = input("Do you want to play again? (1) yes or (2) no?: ")
+        print("")
+        if choice == "1":
+            start_game()
+        elif choice == "2":
+            print("Have a good rest of your day then I guess.")
+        else:
+            print("*FOR THE LAST TIME, THAT'S NOT AN OPTION. LET'S TRY THIS AGAIN.*")
+            print("")
+            outside()
 start_game()
